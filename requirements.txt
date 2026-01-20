@@ -1,0 +1,36 @@
+# Core LangChain dependencies
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-openai>=0.1.0
+langchain-ollama>=0.1.0
+
+# LangSmith for observability and tracing
+langsmith>=0.1.0
+langgraph-cli[inmem]
+
+# Web search and crawling
+ddgs>=0.1.0
+crawl4ai>=0.3.0
+playwright>=1.40.0
+
+# Data models and validation
+pydantic>=2.0.0
+
+# Jupyter notebook support
+ipykernel>=6.0.0
+ipython>=8.0.0
+jupyter>=1.0.0
+
+# Data processing (used in notebooks)
+pandas>=2.0.0
+
+# JSON parsing (used in notebooks)
+json5>=0.9.0
+
+# HTTP requests
+urllib3>=2.0.0
+requests>=2.31.0
+
+# System utilities
+psutil>=5.9.0
+
